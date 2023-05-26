@@ -8,7 +8,7 @@ let ob = {
        
 } 
      
-    localStorage.setItem('userDetails', JSON.stringify(ob)) 
+    localStorage.setItem(ob.email , JSON.stringify(ob)) 
     
     addd(ob) 
 }     
