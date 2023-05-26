@@ -7,8 +7,8 @@ let ob = {
       phone: document.getElementById("phone").value, 
        
 } 
-     //localstorage
-    localStorage.setItem(ob.email, JSON.stringify(ob)) 
+     
+    localStorage.setItem('userDetails', JSON.stringify(ob)) 
     
     addd(ob) 
 }     
